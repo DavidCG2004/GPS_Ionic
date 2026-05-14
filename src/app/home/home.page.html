@@ -1,0 +1,82 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+    <ion-title>Ubicación</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding minimal-bg">
+  
+  <!-- Contenedor Principal de Coordenadas -->
+  <div class="location-display">
+    <ion-icon name="location-outline" class="main-icon"></ion-icon>
+    
+    <ng-container *ngIf="latitude() !== null && longitude() !== null; else noData">
+      <h2>{{ latitude() | number:'1.4-4' }}</h2>
+      <h2>{{ longitude() | number:'1.4-4' }}</h2>
+      <p class="subtitle">Coordenadas Actuales</p>
+    </ng-container>
+
+    <ng-template #noData>
+      <h2>--</h2>
+      <p class="subtitle">Ubicación desconocida</p>
+    </ng-template>
+  </div>
+
+  <!-- Controles GPS Rápidos (Íconos) -->
+  <div class="controls-row">
+    <!-- Botón Actualizar (Secundario) -->
+    <ion-button shape="round" fill="clear" color="medium" (click)="obtenerUbicacionActual()" title="Actualizar">
+      <ion-icon slot="icon-only" name="refresh-outline"></ion-icon>
+    </ion-button>
+    
+    <!-- Botón Play/Stop Seguimiento (Dinámico) -->
+    <ion-button 
+      shape="round"
+      class="track-btn"
+      [color]="watchId ? 'danger' : 'primary'" 
+      (click)="watchId ? detenerSeguimiento() : iniciarSeguimiento()">
+      <ion-icon slot="icon-only" [name]="watchId ? 'stop' : 'play'"></ion-icon>
+    </ion-button>
+  </div>
+
+  <!-- Botones de Acción Principal (Abajo) -->
+  <div class="action-buttons">
+    <ion-button 
+      expand="block" 
+      class="minimal-btn" 
+      color="light" 
+      (click)="guardarEnSupabase()" 
+      [disabled]="latitude() === null || isSaving()">
+      <ion-icon slot="start" name="cloud-upload-outline"></ion-icon>
+      {{ isSaving() ? 'Guardando...' : 'Guardar en Supabase' }}
+    </ion-button>
+
+    <ion-button 
+      expand="block" 
+      class="minimal-btn" 
+      color="primary" 
+      (click)="abrirEnMaps()" 
+      [disabled]="latitude() === null">
+      <ion-icon slot="start" name="map-outline"></ion-icon>
+      Abrir en Google Maps
+    </ion-button>
+  </div>
+
+  <!-- Feedbacks de Error y Éxito -->
+  <ion-toast 
+    [isOpen]="errorMsg() !== null" 
+    [message]="errorMsg()" 
+    color="danger" 
+    duration="3000" 
+    (didDismiss)="errorMsg.set(null)">
+  </ion-toast>
+  
+  <ion-toast 
+    [isOpen]="successMsg() !== null" 
+    [message]="successMsg()" 
+    color="success" 
+    duration="3000" 
+    (didDismiss)="successMsg.set(null)">
+  </ion-toast>
+
+</ion-content>
