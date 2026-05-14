@@ -14,16 +14,22 @@ Una aplicación híbrida (Web/Móvil) moderna y minimalista construida con **Ion
 
 ## 📸 Capturas de Pantalla
 
-*(Reemplaza las rutas de las imágenes con las capturas reales de tu proyecto)*
-
 <div align="center">
-
-**📱 Vista Móvil (Android/iOS)**  
-![Vista Móvil](https://github.com/user-attachments/assets/eeb022aa-74bb-4fe8-93ad-99027a36fade)
-
-**💻 Vista Escritorio (Web)**  
-![Vista Escritorio](https://github.com/user-attachments/assets/fdaae57a-1dbd-40d2-8e9f-f466a5b3a961)
-
+  <figure style="display: inline-block; margin: 15px;">
+    <img src="https://github.com/user-attachments/assets/eeb022aa-74bb-4fe8-93ad-99027a36fade" 
+         alt="Vista Móvil" 
+         width="220" 
+         style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+    <figcaption><b>📱 Vista Móvil (Android/iOS)</b></figcaption>
+  </figure>
+ 
+  <figure style="display: inline-block; margin: 15px;">
+    <img src="https://github.com/user-attachments/assets/fdaae57a-1dbd-40d2-8e9f-f466a5b3a961" 
+         alt="Vista Escritorio" 
+         width="520" 
+         style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+    <figcaption><b>💻 Vista Escritorio (Web)</b></figcaption>
+  </figure>
 </div>
 ---
 
