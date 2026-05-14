@@ -20,8 +20,8 @@ Una aplicación híbrida (Web/Móvil) moderna y minimalista construida con **Ion
          alt="Vista Móvil" 
          width="200" 
          style="border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
-    <br>
     <figcaption><b>📱 Vista Móvil</b></figcaption>
+    <br>
   </figure>
  
   <figure style="display: inline-block; margin: 12px;">
