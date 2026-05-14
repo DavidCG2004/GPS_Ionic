@@ -18,7 +18,8 @@ Una aplicación híbrida (Web/Móvil) moderna y minimalista construida con **Ion
 
 <div align="center">
   <figure style="display: inline-block; margin-right: 20px;">
-    <img src="docs/captura-movil.jpg" alt="Vista Móvil" width="250" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+    <img src="<img width="1080" height="2340" alt="WhatsApp Image 2026-05-14 at 3 32 59 PM" src="https://github.com/user-attachments/assets/eeb022aa-74bb-4fe8-93ad-99027a36fade" />
+" alt="Vista Móvil" width="250" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
     <figcaption><b>📱 Vista Móvil (Android/iOS)</b></figcaption>
   </figure>
   
