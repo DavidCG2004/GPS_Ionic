@@ -15,20 +15,20 @@ Una aplicación híbrida (Web/Móvil) moderna y minimalista construida con **Ion
 ## 📸 Capturas de Pantalla
 
 <div align="center">
-  <figure style="display: inline-block; margin: 15px;">
+  <figure style="display: inline-block; margin: 12px;">
     <img src="https://github.com/user-attachments/assets/eeb022aa-74bb-4fe8-93ad-99027a36fade" 
          alt="Vista Móvil" 
-         width="220" 
-         style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
-    <figcaption><b>📱 Vista Móvil (Android/iOS)</b></figcaption>
+         width="200" 
+         style="border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+    <figcaption><b>📱 Vista Móvil</b></figcaption>
   </figure>
  
-  <figure style="display: inline-block; margin: 15px;">
+  <figure style="display: inline-block; margin: 12px;">
     <img src="https://github.com/user-attachments/assets/fdaae57a-1dbd-40d2-8e9f-f466a5b3a961" 
          alt="Vista Escritorio" 
-         width="520" 
-         style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
-    <figcaption><b>💻 Vista Escritorio (Web)</b></figcaption>
+         width="480" 
+         style="border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+    <figcaption><b>💻 Vista Escritorio</b></figcaption>
   </figure>
 </div>
 ---
