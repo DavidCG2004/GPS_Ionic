@@ -24,7 +24,8 @@ Una aplicación híbrida (Web/Móvil) moderna y minimalista construida con **Ion
   </figure>
   
   <figure style="display: inline-block;">
-    <img src="docs/captura-desktop.jpg" alt="Vista Escritorio" width="600" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+    <img src="<img width="1906" height="730" alt="image" src="https://github.com/user-attachments/assets/fdaae57a-1dbd-40d2-8e9f-f466a5b3a961" />
+" alt="Vista Escritorio" width="600" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
     <figcaption><b>💻 Vista Escritorio (Web)</b></figcaption>
   </figure>
 </div>
